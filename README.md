@@ -39,7 +39,7 @@ CLeVER framework currently is compatible with augmentation strategies of **arbit
 
 Comparison of the performance of various backbone models pre-trained with CLeVER and DINO on ImageNet-100. All performances are evaluated under rotational perturbation. 
 
-<img src="./Figures/Backbones.png" alt="Backbones" width=50% height=50% />
+<img src="./Figures/Backbones.png" alt="Backbones" width=50% height=50% align=center/>
 
 #### Linear Evaluation on ImageNet-100, 200 epochs (Training with CAug\*, and evaluating with Orignal images / Orignal images + ColorJitter + RandomRotation -90~90)
 
@@ -173,7 +173,7 @@ To evaluate the representation quality of pre-trained ViT models in DAVIS 2017 d
 
 ### Downstram Unsupervised Saliency Detection
 
-To evaluate the representation quality of pre-trained ViT models in ECSSD, DUTS, DUT_OMRON dataset,, please follow the instructions of [4.2 Unsupervised saliency detection](https://github.com/YangtaoWANG95/TokenCut?tab=readme-ov-file) provided in the official TokenCut repository.
+To evaluate the representation quality of pre-trained ViT models in ECSSD, DUTS, DUT_OMRON dataset, please follow the instructions of [4.2 Unsupervised saliency detection](https://github.com/YangtaoWANG95/TokenCut?tab=readme-ov-file) provided in the official TokenCut repository.
 
 ## 5. Acknowledgments
 
