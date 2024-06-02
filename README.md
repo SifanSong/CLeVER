@@ -39,7 +39,7 @@ CLeVER framework currently is compatible with augmentation strategies of **arbit
 
 Comparison of the performance of various backbone models pre-trained with CLeVER and DINO on ImageNet-100. All performances are evaluated under rotational perturbation. 
 
-<img src="./Figures/Backbones.png" alt="Backbones" style="zoom:30%;" />
+<img src="./Figures/Backbones.png" alt="Backbones" width=50% height=50% />
 
 #### Linear Evaluation on ImageNet-100, 200 epochs (Training with CAug\*, and evaluating with Orignal images / Orignal images + ColorJitter + RandomRotation -90~90)
 
