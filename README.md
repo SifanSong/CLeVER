@@ -75,7 +75,7 @@ conda install CLeVER
 
 ### Pre-training
 
-With the configuration for pre-training
+With the configuration for pre-training (can also directly follow `run.sh`)
 
 ```bash
 PORT_NUM=25606
