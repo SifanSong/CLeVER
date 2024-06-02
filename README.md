@@ -30,7 +30,7 @@ If you find our CLeVER useful in your research, please star this repository and 
 
 ## 2. Supported Backbone Models
 
-CLeVER framework currently is compatible with augmentation strategies of **arbitrary complexity** for various **mainstream backbone models**.
+CLeVER framework currently is compatible with **augmentation strategies of arbitrary complexity** for various **mainstream backbone models**.
 
 - **[ResNet, 2015](https://arxiv.org/pdf/1512.03385) (Convolutional Modules)**
 - **[ViT, 2021](https://arxiv.org/pdf/2010.11929) (Multi-Head Self-Attention Modules)**
