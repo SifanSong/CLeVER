@@ -37,13 +37,13 @@ CLeVER framework currently is compatible with augmentation strategies of **arbit
 - **VMamba (2D Selective Scan Modules)**
 - We find that **VMamba has surprising performance gains** from equivariance within the CLeVER framework (also within contrastive learning / self-supervised learning framework). This suggests that the integration of equivariant factors not only improves robustness and generalization but also **maximizes the potential** of innovative backbone architectures like VMamba.
 
-Comparison of the performance of various backbone models pre-trained with CLeVER and DINO on ImageNet-100. All performances are evaluated under rotational perturbation. 
+Comparison of the performance of various backbone models pre-trained with CLeVER and DINO on ImageNet-100. All performances are evaluated under rotational perturbation (Top1-Ori+CJ+R). 
 
 <div align="center">
 	<img src="./Figures/Backbones.png" alt="Backbones" width=50% height=50% />
 </div>
 
-#### Linear Evaluation on ImageNet-100, 200 epochs (Training with CAug\*, and evaluating with Orignal images / Orignal images + ColorJitter + RandomRotation -90~90)
+#### In this figure, for Linear Evaluation on ImageNet-100 with 200 epochs (trained with CAug* and evaluated using Original images / Original images + ColorJitter + RandomRotation -90~90), the details are as follows.
 
 | Backbones   | Methods    | Params | GFLOPs | Top1-Ori | Top1-Ori+CJ+R |
 | ----------- | ---------- | ------ | ------ | -------- | ------------- |
