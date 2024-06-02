@@ -45,7 +45,6 @@ Comparison of the performance of various backbone models pre-trained with CLeVER
 
 #### Linear Evaluation on ImageNet-100, 200 epochs (Training with CAug\*, and evaluating with Orignal images / Orignal images + ColorJitter + RandomRotation -90~90)
 
-<div align="center">
 | Backbones   | Methods    | Params | GFLOPs | Top1-Ori | Top1-Ori+CJ+R |
 | ----------- | ---------- | ------ | ------ | -------- | ------------- |
 | ViT-Tiny    | DINO       | 5.5M   | 1.26G  | 66.2     | 62.6          |
@@ -58,7 +57,6 @@ Comparison of the performance of various backbone models pre-trained with CLeVER
 |             | **CLeVER** | 23.5M  | 4.14G  | **79.1** | **77.7**      |
 | VMamba-Tiny | DINO       | 29.5M  | 4.84G  | 80.9     | 79.5          |
 |             | **CLeVER** | 29.5M  | 4.84G  | **82.9** | **81.1**      |
-</div>
 
 (\* Compared to default augmentation setting used in DINO (*i.e.*, BAug), the CAug has an additional “transforms.RandomRotation(degrees=(-90, 90))” for all input images.)
 
