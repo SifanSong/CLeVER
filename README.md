@@ -32,9 +32,9 @@ If you find our CLeVER useful in your research, please star this repository and 
 
 CLeVER framework currently is compatible with augmentation strategies of **arbitrary complexity** for various **mainstream backbone models**.
 
-- **ResNet (Convolutional Modules)**
-- **ViT (Multi-Head Self-Attention Modules)**
-- **VMamba (2D Selective Scan Modules)**
+- **[ResNet, 2015](https://arxiv.org/pdf/1512.03385) (Convolutional Modules)**
+- **[ViT, 2021](https://arxiv.org/pdf/2010.11929) (Multi-Head Self-Attention Modules)**
+- **[VMamba, 2024](https://arxiv.org/pdf/2401.10166) (2D Selective Scan Modules)**
 - We find that **VMamba has surprising performance gains** from equivariance within the CLeVER framework (also within contrastive learning / self-supervised learning framework). This suggests that the integration of equivariant factors not only improves robustness and generalization but also **maximizes the potential** of innovative backbone architectures like VMamba.
 
 Comparison of the performance of various backbone models pre-trained with CLeVER and DINO on ImageNet-100. All performances are evaluated under rotational perturbation (Top1-Ori+CJ+R). 
