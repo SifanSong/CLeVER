@@ -7,7 +7,7 @@
 
 Pytorch implementation of **[CLeVER (Contrastive Learning Via Equivariant Representation)]()**. (Arxiv version is currently scheduled to be announced at Tue, 4 Jun 2024 00:00:00 GMT. 🚀)
 
-<img src="/Users/songsifan/Library/Mobile Documents/com~apple~CloudDocs/UXJTLU_PhD/0_Scripts/202309_DDCL_v2/Github_Codes/CLeVER/Figures/Arch.png" alt="Arch" style="zoom:50%;" />
+<img src="./Figures/Arch.png" alt="Arch" style="zoom:50%;" />
 
 If you find our CLeVER useful in your research, please star this repository and consider citing:
 
@@ -39,7 +39,7 @@ CLeVER framework currently is compatible with augmentation strategies of **arbit
 
 Comparison of the performance of various backbone models pre-trained with CLeVER and DINO on ImageNet-100. All performances are evaluated under rotational perturbation. 
 
-<img src="/Users/songsifan/Library/Mobile Documents/com~apple~CloudDocs/UXJTLU_PhD/0_Scripts/202309_DDCL_v2/Github_Codes/CLeVER/Figures/Backbones.png" alt="Backbones" style="zoom:50%;" />
+<img src="./Figures/Backbones.png" alt="Backbones" style="zoom:50%;" />
 
 #### Linear Evaluation on ImageNet-100, 200 epochs (Training with CAug\*, and evaluating with Orignal images / Orignal images + ColorJitter + RandomRotation -90~90)
 
