@@ -58,7 +58,7 @@ Comparison of the performance of various backbone models pre-trained with CLeVER
 | VMamba-Tiny | DINO       | 29.5M  | 4.84G  | 80.9     | 79.5          |
 |             | **CLeVER** | 29.5M  | 4.84G  | **82.9** | **81.1**      |
 
-(**\***Compared to default augmentation setting used in DINO (*i.e.*, BAug), the CAug has an additional “transforms.RandomRotation(degrees=(-90, 90))” for all input images.)
+(\* Compared to default augmentation setting used in DINO (*i.e.*, BAug), the CAug has an additional “transforms.RandomRotation(degrees=(-90, 90))” for all input images.)
 
 ## 3. Getting Started
 
