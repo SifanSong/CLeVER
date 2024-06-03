@@ -11,7 +11,7 @@ OTHER_PARA=("65536" "" "" "" "_reg0.001") ## ("DVR_out_dim: 410/2048/16384/65536
 HP1=("0.8") ## hyperparameter for separation ratio of representations of IR and EF (default 0.8).
 BATCH=("128") ## 128 for 4*GPUs / 256 for 2*GPUs
 AUG_TYPE=("aug1_2") ## different augmentation types: aug1=BAug, aug1_2=CAug, aug1_4_2=CAug+ (identical to the manuscript)
-SEP_LAMBD=("1.0") ## The coefficient of DVR loss (default 1.0)
+SEP_LAMBD=("1.0") ## The coefficient of Orthogonal loss (default 1.0)
 #### Configurations for Linear Probe
 GPU_num_LN=2
 DEVICES_LN=0,1

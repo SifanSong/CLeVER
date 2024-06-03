@@ -58,6 +58,21 @@ Comparison of the performance of various backbone models pre-trained with CLeVER
 | VMamba-Tiny | DINO       | 29.5M  | 4.84G  | 80.9     | 79.5          |
 |             | **CLeVER** | 29.5M  | 4.84G  | **82.9** | **81.1**      |
 
+#### For Linear Evaluation on ImageNet-100 with 200 epochs (trained with BAug, the most common augmentation setting in CL, and evaluated using Orignal images / Orignal images + ColorJitter + RandomRotation -90~90), the details are as follows.
+
+| Backbones   | Methods    | Params | GFLOPs | Top1-Ori | Top1-Ori+CJ+R |
+| ----------- | ---------- | ------ | ------ | -------- | ------------- |
+| ViT-Tiny    | DINO       | 5.5M   | 1.26G  | 71.9     | 46.0          |
+|             | **CLeVER** | 5.5M   | 1.26G  | **74.9** | 48.3          |
+| ViT-Small   | DINO       | 21.7M  | 4.61G  | 75.9     | 50.7          |
+|             | **CLeVER** | 21.7M  | 4.61G  | **76.7** | 50.4          |
+| ResNet18    | DINO       | 11.2M  | 1.83G  | 74.4     | 46.8          |
+|             | **CLeVER** | 11.2M  | 1.83G  | **76.8** | 46.5          |
+| ResNet50    | DINO       | 23.5M  | 4.14G  | 80.6     | 53.8          |
+|             | **CLeVER** | 23.5M  | 4.14G  | **81.1** | 53.9          |
+| VMamba-Tiny | DINO       | 29.5M  | 4.84G  | 83.2     | 53.4          |
+|             | **CLeVER** | 29.5M  | 4.84G  | **83.7** | 54.4          |
+
 (\* Compared to default augmentation setting used in DINO (*i.e.*, BAug), the CAug has an additional “transforms.RandomRotation(degrees=(-90, 90))” for all input images.)
 
 ## 3. Getting Started
