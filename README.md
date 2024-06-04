@@ -12,7 +12,14 @@ Pytorch implementation of **[CLeVER (Contrastive Learning Via Equivariant Repres
 If you find our CLeVER useful in your research, please star this repository and consider citing:
 
 ```
-🚀
+@misc{song2024contrastive,
+      title={Contrastive Learning Via Equivariant Representation}, 
+      author={Sifan Song and Jinfeng Wang and Qiaochu Zhao and Xiang Li and Dufan Wu and Angelos Stefanidis and Jionglong Su and S. Kevin Zhou and Quanzheng Li},
+      year={2024},
+      eprint={2406.00262},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 ## Table of Content
