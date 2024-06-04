@@ -5,7 +5,7 @@
 [![Static Badge](https://img.shields.io/badge/PyTorch-1.13.0-orange)]()
 [![Static Badge](https://img.shields.io/badge/cudatoolkit-11.7-1f5e96)]()
 
-Pytorch implementation of **[CLeVER (Contrastive Learning Via Equivariant Representation)]()**. (Arxiv version is currently scheduled to be announced at Tue, 4 Jun 2024 00:00:00 GMT. 🚀)
+Pytorch implementation of **[CLeVER (Contrastive Learning Via Equivariant Representation)](https://arxiv.org/abs/2406.00262)**.
 
 <img src="./Figures/Arch.png" alt="Arch" style="zoom:50%;" />
 
@@ -43,7 +43,7 @@ Comparison of the performance of various backbone models pre-trained with CLeVER
 	<img src="./Figures/Backbones.png" alt="Backbones" width=50% height=50% />
 </div>
 
-#### In this figure, for Linear Evaluation on ImageNet-100 with 200 epochs (trained with CAug* and evaluated using Original images / Original images + ColorJitter + RandomRotation -90~90), the details are as follows.
+#### In this figure, for Linear Evaluation on ImageNet-100 with 200 epochs (trained with CAug and evaluated using Original images / Original images + ColorJitter + RandomRotation -90~90), the details are as follows.
 
 | Backbones   | Methods    | Params | GFLOPs | Top1-Ori | Top1-Ori+CJ+R |
 | ----------- | ---------- | ------ | ------ | -------- | ------------- |
