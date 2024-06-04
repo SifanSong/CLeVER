@@ -1,6 +1,6 @@
 # CLeVER
 
-[![Static Badge](https://img.shields.io/badge/CLeVER-Arxiv-pink)]()
+[![Static Badge](https://img.shields.io/badge/CLeVER-Arxiv-pink)](https://arxiv.org/abs/2406.00262)
 [![Static Badge](https://img.shields.io/badge/Python-3.8.19-blue)]()
 [![Static Badge](https://img.shields.io/badge/PyTorch-1.13.0-orange)]()
 [![Static Badge](https://img.shields.io/badge/cudatoolkit-11.7-1f5e96)]()
