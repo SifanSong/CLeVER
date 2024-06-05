@@ -1,4 +1,6 @@
-#### Configurations for Pretraining
+########################################
+#### Configurations for Pretraining ####
+########################################
 PORT_NUM=25606
 GPU_num=4 ## 4GPU
 DEVICES=0,1,2,3
@@ -7,7 +9,7 @@ backbone_name=vit_tiny ## resnet18, resnet50, vit_tiny, vit_small, vssm2-vmambav
 EPOCH=200
 DATASET=IN100 ##Imagenet, IN100
 DATASET_PATH=<path to imagenet-100 or imagenet>
-OTHER_PARA=("65536" "" "" "" "_reg0.001") ## ("DVR_out_dim: 410/2048/16384/65536" "NA" "NA" "NA" "_reg0.001/blank")
+OTHER_PARA=("65536" "" "" "" "_reg0.001") ## ("out_dim: 410/2048/16384/65536" "NA" "NA" "NA" "_reg0.001/blank")
 HP1=("0.8") ## hyperparameter for separation ratio of representations of IR and EF (default 0.8).
 BATCH=("128") ## 128 for 4*GPUs / 256 for 2*GPUs
 AUG_TYPE=("aug1_2") ## different augmentation types: aug1=BAug, aug1_2=CAug, aug1_4_2=CAug+ (identical to the manuscript)

@@ -63,7 +63,7 @@ Comparison of the performance of various backbone models pre-trained with CLeVER
 | ResNet50    | DINO       | 23.5M  | 4.14G  | 78.4     | 76.4          |
 |             | **CLeVER** | 23.5M  | 4.14G  | **79.1** | **77.7**      |
 | VMamba-Tiny | DINO       | 29.5M  | 4.84G  | 80.9     | 79.5          |
-|             | **CLeVER** | 29.5M  | 4.84G  | **82.9** | **81.1**      |
+|             | **CLeVER** | 29.5M  | 4.84G  | **83.0** | **81.1**      |
 
 #### For Linear Evaluation on ImageNet-100 with 200 epochs (trained with BAug, the most common augmentation setting in CL, and evaluated using Orignal images / Orignal images + ColorJitter + RandomRotation -90~90), the details are as follows.
 
@@ -189,7 +189,7 @@ done
 
 ### Downstream Classification Task
 
-🚀
+Please follow the configurations and codes in `run_ds.sh`.
 
 ### Downstream Video Object Segmentation 
 
